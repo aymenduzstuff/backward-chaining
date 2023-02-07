@@ -1,0 +1,34 @@
+farine,beurre,ouefs=pate
+pommes,sucre=pommes sucres
+pommes sucres,pate=tarte aux pommes
+abricots,pate=tarte aux abricots
+poires,pate=tarte poires
+cerises,pate=tarte aux cerises
+
+pommes,ouefs,poires,abricots,farine,beurre,sucre,sel
+
+A,B=F
+F,H=I
+D,H,G=A
+O,G=H
+E,H=B
+G,A=B
+G,H=P
+G,H=Q
+D,O,G=J
+
+D,O,G
+
+
+n,p,q=r
+p,s=m
+r,o=m
+n=m
+n=y
+p=q
+m,y=t
+o=p
+y,o=m
+y,n=p
+
+n,o
