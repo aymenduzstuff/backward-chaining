@@ -7,6 +7,7 @@ from PyQt5.uic import loadUi
 
 from mi import *
 
+#initialization class : 
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -40,6 +41,8 @@ class MainWindow(QMainWindow):
         self.output.append(f"Faits: {str(facts)[1:-1]}\nRegles non-appliquer: {str(rules)[1:-1]}")
 
     def chainage_arriere(self):
+        
+
         self.output.setText("")
         rules = self.rules.toPlainText().strip().split("\n")
         facts = self.facts.toPlainText().strip().split(",")
